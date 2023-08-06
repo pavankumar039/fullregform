@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+            background-image: linear-gradient(white,rgb(35, 36, 35));
+           
+            display: block;
+            padding: 10px;
+           
+            margin: 0px 300px 0px 300px;
+            align-items: center;
+
+        }
+        body{
+            background-color: rgb(209, 146, 146);
+            border: 20px black;
+            background-image: url("back.jpg");
+           
+        }
+        range{
+            color: aqu;
+        }
+        #sub1{
+            border:2px solid black ;
+            background-color: aqua;
+        }
+        #submit{
+            border-radius: 30%;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <h2><b>Eneter your personal Details </b></h2><br><br>
+        <input type="button" onclick="alert('hello')" value="click"><br><br>
+
+
+        <input type="checkbox" id="sub1" name="sub1" value="english">
+        <label for="sub1">i know english</label>
+        <input type="checkbox" id="sub2" name="sub2"  value="telugu">
+        <label for="sub2">i know telugu</label>
+        <input type="checkbox" id="sub3" name="sub3" value="tamil">
+        <label for="sub3" >i know tamil</label><br><br>
+
+
+    
+        
+        
+            <label for="favcolor">select your fav color:
+            </label>
+            <input type="color" id="favcolor" nzme="favcolor"><br><br>
+        
+            
+            
+            <label for="bdaytime" >enter your birthday:</label>
+            <input type="datetime-local" id="bdaytime" name="bday" >
+            <br>
+        <br>
+            <label for="email" >enter your email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            
+            
+            <label for="fname">firstname:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">lastname:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="hidden" id="custid" name="custid" value="3487">
+            <input type="submit" value="next"><br><br>
+
+           <!--<input type="image" src="pic.jpg" alt="submit"> <br><br>
+
+            <label for="bdaymonth">birthday month</label>
+            <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br> -->
+
+            <label for="username" >user name:</label>
+            <input type="text" id="username" name="username" ><br><br>
+            <label for="pwd" >password:</label>
+            <input type="password" id="pwd" name="passwrd"><br><br>
+
+            <label for="myfile">Resume/cv:</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+            
+            <p>choose your favourite web language</p>
+            <input type="radio" id="html" nmae="favlang" value="HTML">
+            <label for="html">HTML</label>
+            <input type="radio" id="css" name="favlang" value="CSS">
+            <label for="css">Css</label>
+            <input type="radio" id="js" name="favlang" value="js">
+            <label for="js">JavaScript</label><br><br>
+
+            <label for="col">knowledge</label>
+            <input type="range" id="col" name="col" min="0" max="10"><br><br>
+
+            
+        
+            <label for="gsearch">Search google</label>
+            <input type="search" id="gsearch" name="gesarch"><br><br>
+
+            <div id="submit">
+                <input type="submit" value="submit" required>
+            </div>
+        </form>
+
+        
+</body>
+</html>
